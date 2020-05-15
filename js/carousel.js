@@ -64,7 +64,6 @@ const handleNextButton = ()=>{
     updateDots(currentDot, nextDot);
 }
 
-
 const getSlideIndex = (targetSlide)=>{
     return slides.findIndex(slide => slide === targetSlide);
 }
