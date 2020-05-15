@@ -83,3 +83,4 @@ const handleDotsButton = (e)=>{
     moveToSlide(currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
 }
+
