@@ -1,3 +1,6 @@
+h2{
+    text-align: center;
+}
 .carousel{
     position: relative;
     height: 600px;
@@ -33,12 +36,17 @@
     width: 100%;
 }
 
-
 .carousel__button{
     position: absolute;
     top : 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    background: transparent;
+    border : 0;
+}
+
+.carousel__button img{
+    width : 20px;
 }
 
 .carousel__button--left{
@@ -48,7 +56,6 @@
 .carousel__button--right{
     right : -50px;
 }
-
 
 .carousel__nav {
     display: flex;
